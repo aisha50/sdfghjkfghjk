@@ -1,0 +1,117 @@
+
+ /*body styling*/
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 19px;
+
+}
+
+/*heading 2 styling*/
+
+h2{
+
+    border-bottom: double;
+    text-align: center;
+  
+}
+
+/*footer styling*/
+
+.footer{
+    padding: 1.5em;
+    text-align: center;
+    
+}
+
+/*navigation bar styling*/
+
+.navbar
+{
+    text-align: center;
+    position: relative; 
+}
+
+/*contact page styling*/
+
+.contact text{
+    font-size: 20px;
+
+}
+/*uls and lis used for multi purpose ...styled here*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding: 0;
+    overflow: hidden;
+    background: grey;
+}
+
+ li {
+  float: left; 
+ }
+
+li a{
+text-decoration: none;
+text-align: center;
+color:white;
+padding: 20px;
+display: flex;
+}
+
+li a:hover{
+    background-color: #000000
+}
+@media screen and (max-width: 600px)
+ {
+    li.right, 
+    li {float: none;}
+  }
+/*heading 1 styling*/
+h1{
+    text-align: center;
+}
+/*flex box styling*/
+.main-flex{
+    float: left;
+    padding: 15px;
+}
+
+@media (min-width: 800px) 
+   {
+    .main-flex {
+    display:flex;
+        
+    }
+    .space-between{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+.flex-box-main-1{
+    padding: 5px;
+    flex:1;
+     order:1;
+    }
+    .flex-box-main-2{
+        padding: 5px;
+        flex:1;
+         order: 2;
+    }
+    .flex-box-main-3{
+        padding: 5px;
+        flex:1;
+         order:3;
+    }
+    .flex-box-main-4{
+        padding: 5px;
+        flex:1;
+        order:4;
+    }
+    .space-between-box{
+        flex-basis: 30%;
+    
+    }
+
+
